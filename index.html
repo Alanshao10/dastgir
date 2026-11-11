@@ -407,6 +407,11 @@ main>.nav{order:0}main>.hero{order:1}main>#dirs{order:2}main>#team{order:3}main>
 .work p{color:var(--lead);font-size:18px}
 .work.soon{border-style:dashed;justify-content:center;align-items:center;text-align:center;color:var(--muted)}
 .work.soon b{font-family:var(--fh);font-size:40px;color:var(--acc)}
+.work .rev{margin:6px 0 0;padding:14px 16px;border-left:4px solid var(--acc);background:var(--ghost);border-radius:0 14px 14px 0;font-size:18px;line-height:1.5;color:var(--lead)}
+.work .rev cite{display:block;margin-top:8px;font-style:normal;font-size:15px;color:var(--muted)}
+.work .tgmock{margin:6px 0 0;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--cardbg);font-size:16px;line-height:1.5;color:var(--lead)}
+.work .tgmock b{display:block;margin-bottom:6px;color:var(--acc);font-size:17px}
+.work .tgmock i{display:block;margin-top:8px;font-style:normal;font-size:14px;color:var(--muted)}
 
 /* вопросы */
 .faq{display:flex;flex-direction:column;gap:12px;max-width:900px}
@@ -680,7 +685,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
       <p>Показываем честно, без придуманных цифр.</p>
     </div>
     <div class="works">
-      <div class="work"><span class="tag">Автоматизация</span><h3>Тендерный бот</h3><p>Каждое утро сам находит новые государственные закупки по теме компании и присылает их в Telegram.</p></div>
+      <div class="work"><span class="tag">Автоматизация</span><h3>Тендерный бот</h3><p>Каждое утро сам находит новые государственные закупки по теме компании и присылает их в Telegram.</p>
+        <div class="tgmock" aria-label="Пример утреннего сообщения бота"><b>☀️ Новые закупки на сегодня</b>1. Поставка строительных материалов — до 15.11 → ссылка<br>2. Ремонт помещений — до 18.11 → ссылка<br>3. Услуги по уборке территории — до 20.11 → ссылка<i>Пример сообщения, данные условные</i></div>
+        <blockquote class="rev">«Раньше мы целыми днями сидели и мониторили площадки с тендерами и закупками. Теперь бот каждое утро присылает всё по нашему профилю — просто открываешь ссылки. Освободил время и силы нескольких сотрудников.»<cite>— сотрудник компании, которая пользуется ботом</cite></blockquote></div>
       <div class="work"><span class="tag">Бот + сайт</span><h3>Сайт и бот спортивной секции</h3><p>Сайт с расписанием и ценами и бот, который записывает на пробное занятие.</p></div>
       <div class="work"><span class="tag">Сайты</span><h3>Учебные сайты по языкам</h3><p>Два сайта для изучения немецкого и турецкого языков.</p></div>
     </div>
